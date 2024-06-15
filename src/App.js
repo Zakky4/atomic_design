@@ -1,11 +1,12 @@
 import { PrimaryButton } from './components/atom/button/PrimaryButton';
+import { SecondaryButton } from './components/atom/button/SecondaryButton';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <PrimaryButton>テスト</PrimaryButton>
-      <PrimaryButton>検索</PrimaryButton>
+      <SecondaryButton>検索</SecondaryButton>
     </div>
   );
 }
